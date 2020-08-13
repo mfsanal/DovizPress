@@ -1,0 +1,21 @@
+.match-item-leag {
+  width: 100%;
+  border: 3px solid rgba(224, 224, 224, 0.5);
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 5px;
+  margin: 4px 0;
+  padding: 0 3px 5px;
+  background: rgba(224, 224, 224, 0.3);
+  cursor: pointer;
+  text-align: center;
+  font-size: x-small;
+
+
+  &:hover{
+    background: rgba(224, 224, 224, 0.7);
+  }
+
+
+
+}

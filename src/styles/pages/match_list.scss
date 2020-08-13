@@ -1,0 +1,21 @@
+.match-list-card-header {
+  padding: 0.25rem 0.75rem !important;
+  font-size: small;
+  cursor: pointer;
+  text-align: center;
+}
+.match-list-card {
+  margin-bottom: 10px;
+}
+.match-list-match-list {
+  padding: 10px;
+}
+.live-score-menu-item{
+  & > .card-body{
+    padding: 10px;
+    text-align: center;
+  }
+}
+.dpb {
+
+}

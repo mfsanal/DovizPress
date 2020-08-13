@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+body{
+  background-image: url("/image/bg.png");
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+.blink {
+  animation: blinker 0.9s linear infinite;
+}

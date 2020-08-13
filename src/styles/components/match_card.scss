@@ -1,0 +1,80 @@
+$desktop: "(min-width: 1200px)";
+$tablet: "(min-width: 769px)";
+$mobile: "(max-width: 768px)";
+
+.mcard-item {
+  width: 100%;
+  margin: 4px 0;
+  padding: 0 3px 5px;
+  text-align: center;
+
+  .match-card {
+    display: flex;
+    margin-top: -3px;
+    text-align: center;
+
+    .home{
+      width: 30%;
+    }
+    .away{
+      width: 30%;
+    }
+    .detail{
+      width: 40%;
+      padding-top: 15px;
+
+      .score{
+        font-size: xx-large;
+        font-weight: bold;
+
+      }
+      .time{
+        font-size: xx-large;
+        font-weight: bold;
+        color: red;
+        text-shadow: 1px 1px #ffc6c6;
+      }
+    }
+
+  }
+
+}
+
+@media only screen and #{$mobile} {
+  .mcard-item {
+    .match-card {
+      .home img, .away img {
+        width: 50px;
+      }
+      .detail{
+        .score{
+          font-size: larger;
+        }
+        .time{
+          font-size: larger;
+        }
+      }
+
+    }
+
+  }
+}
+@media only screen and #{$tablet} {
+  .mcard-item {
+    .match-card {
+      .home img, .away img {
+        width: 75px;
+      }
+      .detail{
+        .score{
+          font-size: x-large;
+        }
+        .time{
+          font-size: x-large;
+        }
+      }
+
+    }
+
+  }
+}
